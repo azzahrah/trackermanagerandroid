@@ -5,8 +5,7 @@ uses
   FMX.Forms,
   UMain in 'UMain.pas' {FormMain},
   UMyClass in 'UMyClass.pas',
-  UDM in 'UDM.pas' {DM: TDataModule},
-  UFrameMonitorVehicle in 'UFrameMonitorVehicle.pas' {FrameMonitorVehicle: TFrame};
+  UDM in 'UDM.pas' {DM: TDataModule};
 
 {$R *.res}
 

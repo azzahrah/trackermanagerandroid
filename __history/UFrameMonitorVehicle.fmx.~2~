@@ -1,0 +1,5 @@
+object FrameMonitorVehicle: TFrameMonitorVehicle
+  Size.Width = 356.000000000000000000
+  Size.Height = 462.000000000000000000
+  Size.PlatformDefault = False
+end

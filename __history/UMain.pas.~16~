@@ -17,10 +17,9 @@ type
     btnManagerUser: TSpeedButton;
     btnMonitorVehicle: TSpeedButton;
     btnUpdateProfile: TSpeedButton;
+    IdHTTP1: TIdHTTP;
     procedure btnManageVehicleClick(Sender: TObject);
     procedure btnMonitorVehicleClick(Sender: TObject);
-    procedure btnManagerUserClick(Sender: TObject);
-    procedure btnUpdateProfileClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -34,22 +33,12 @@ implementation
 
 {$R *.fmx}
 
-procedure TFormMain.btnManagerUserClick(Sender: TObject);
-begin
-  //
-end;
-
 procedure TFormMain.btnManageVehicleClick(Sender: TObject);
 begin
   //
 end;
 
 procedure TFormMain.btnMonitorVehicleClick(Sender: TObject);
-begin
-  //
-end;
-
-procedure TFormMain.btnUpdateProfileClick(Sender: TObject);
 begin
   //
 end;

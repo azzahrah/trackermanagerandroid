@@ -1,0 +1,89 @@
+object FrameMonitorVehicle: TFrameMonitorVehicle
+  Size.Width = 412.000000000000000000
+  Size.Height = 516.000000000000000000
+  Size.PlatformDefault = False
+  object TabControl1: TTabControl
+    FullSize = True
+    Position.X = 40.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 27.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      329s
+      1s
+      329s
+      1s
+      329s
+      1s)
+    object tabAll: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 109.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'All'
+    end
+    object tabOnline: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 109.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Online'
+    end
+    object tabOffline: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 109.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Offline'
+    end
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Position.X = 72.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 225.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end>
+  end
+end

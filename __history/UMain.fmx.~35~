@@ -74,7 +74,6 @@ object FormMain: TFormMain
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       Text = 'Manage Vehicle'
-      OnClick = btnManageVehicleClick
     end
     object btnManagerUser: TSpeedButton
       Align = Client
@@ -86,7 +85,6 @@ object FormMain: TFormMain
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       Text = 'Manage User'
-      OnClick = btnManagerUserClick
     end
     object btnMonitorVehicle: TSpeedButton
       Align = Client
@@ -98,7 +96,6 @@ object FormMain: TFormMain
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       Text = 'Monitor Vehicle'
-      OnClick = btnMonitorVehicleClick
     end
     object btnUpdateProfile: TSpeedButton
       Align = Client
@@ -110,7 +107,6 @@ object FormMain: TFormMain
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       Text = 'Update Profile / Password'
-      OnClick = btnUpdateProfileClick
     end
   end
   object ws: TsgcWebSocketClient
@@ -147,6 +143,6 @@ object FormMain: TFormMain
     Throttle.BitsPerSec = 0
     Throttle.Enabled = False
     Left = 312
-    Top = 312
+    Top = 368
   end
 end

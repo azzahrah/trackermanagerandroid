@@ -17,6 +17,7 @@ type
     btnManagerUser: TSpeedButton;
     btnMonitorVehicle: TSpeedButton;
     btnUpdateProfile: TSpeedButton;
+    IdHTTP1: TIdHTTP;
     procedure btnManageVehicleClick(Sender: TObject);
     procedure btnMonitorVehicleClick(Sender: TObject);
     procedure btnManagerUserClick(Sender: TObject);

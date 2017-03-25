@@ -2,8 +2,7 @@ unit UMyClass;
 
 interface
 
-uses System.Classes, System.Generics.Collections, json, ioutils,
-  IdBaseComponent, IdComponent,
+uses System.Classes,System.Generics.Collections,json,ioutils,IdBaseComponent, IdComponent,
   IdTCPConnection, IdTCPClient, IdHTTP;
 
 implementation
@@ -17,28 +16,24 @@ type
     login: String;
     real_name: String;
     level: String;
-    level_id: word;
+    level_id:word;
     active: byte;
   end;
 
-  TVehicle = class(TObject)
+  TUser = class(TObject)
     constructor Create(AOwner: TComponent); override;
   private
   public
     id: Integer;
-    nopol: String;
-    imei: String;
-    phone: String;
-    user_id: word;
-    acc: byte;
-    charge: byte;
-    fcut: byte;
-    sat: byte;
-    batt: byte;
-    park: byte;
+    login: String;
+    real_name: String;
+    level: String;
+    level_id:word;
+    active: byte;
   end;
 
-  TCallbackLoadUser = procedure(logs: TStringList; users: TList<TUser>);
+
+  TCallbackLoadUser = procedure(logs: TStringList;users:TList<TUser>);
 
   TMyThread = class(TTHread)
     constructor Create(_Suspended: Boolean);

@@ -74,7 +74,6 @@ object FormMain: TFormMain
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       Text = 'Manage Vehicle'
-      OnClick = btnManageVehicleClick
     end
     object btnManagerUser: TSpeedButton
       Align = Client
@@ -86,7 +85,6 @@ object FormMain: TFormMain
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       Text = 'Manage User'
-      OnClick = btnManagerUserClick
     end
     object btnMonitorVehicle: TSpeedButton
       Align = Client
@@ -98,7 +96,6 @@ object FormMain: TFormMain
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       Text = 'Monitor Vehicle'
-      OnClick = btnMonitorVehicleClick
     end
     object btnUpdateProfile: TSpeedButton
       Align = Client
@@ -110,7 +107,6 @@ object FormMain: TFormMain
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       Text = 'Update Profile / Password'
-      OnClick = btnUpdateProfileClick
     end
   end
   object ws: TsgcWebSocketClient
@@ -148,5 +144,22 @@ object FormMain: TFormMain
     Throttle.Enabled = False
     Left = 312
     Top = 312
+  end
+  object IdHTTP1: TIdHTTP
+    AllowCookies = True
+    ProxyParams.BasicAuthentication = False
+    ProxyParams.ProxyPort = 0
+    Request.ContentLength = -1
+    Request.ContentRangeEnd = -1
+    Request.ContentRangeStart = -1
+    Request.ContentRangeInstanceLength = -1
+    Request.Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    Request.BasicAuthentication = False
+    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
+    Request.Ranges.Units = 'bytes'
+    Request.Ranges = <>
+    HTTPOptions = [hoForceEncodeParams]
+    Left = 168
+    Top = 224
   end
 end
