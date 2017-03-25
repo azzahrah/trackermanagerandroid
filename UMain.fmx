@@ -1,0 +1,164 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 371
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Center
+    Size.Width = 201.000000000000000000
+    Size.Height = 329.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = btnManageVehicle
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = btnMonitorVehicle
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = btnManagerUser
+        Row = 2
+      end
+      item
+        Column = 0
+        Control = SpeedButton1
+        Row = 3
+      end
+      item
+        Column = 0
+        Control = SpeedButton2
+        Row = 4
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end>
+    object btnManageVehicle: TSpeedButton
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 191.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Manage Vehicle'
+    end
+    object btnManagerUser: TSpeedButton
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 191.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Manage User'
+    end
+    object btnMonitorVehicle: TSpeedButton
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 191.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Monitor Vehicle'
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 191.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Update Profile'
+    end
+    object SpeedButton2: TSpeedButton
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 191.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Change Password'
+    end
+  end
+  object ws: TsgcWebSocketClient
+    Port = 80
+    ConnectTimeout = 0
+    ReadTimeout = -1
+    TLS = False
+    Proxy.Enabled = False
+    Proxy.Port = 8080
+    HeartBeat.Enabled = False
+    HeartBeat.Interval = 300
+    HeartBeat.Timeout = 0
+    Authentication.Enabled = False
+    Authentication.URL.Enabled = True
+    Authentication.Session.Enabled = True
+    Authentication.Basic.Enabled = False
+    Extensions.DeflateFrame.Enabled = False
+    Extensions.DeflateFrame.WindowBits = 15
+    Extensions.PerMessage_Deflate.Enabled = False
+    Extensions.PerMessage_Deflate.ClientMaxWindowBits = 15
+    Extensions.PerMessage_Deflate.ClientNoContextTakeOver = False
+    Extensions.PerMessage_Deflate.MemLevel = 1
+    Extensions.PerMessage_Deflate.ServerMaxWindowBits = 15
+    Extensions.PerMessage_Deflate.ServerNoContextTakeOver = False
+    Options.Parameters = '/'
+    Options.ValidateUTF8 = False
+    Specifications.Drafts.Hixie76 = False
+    Specifications.RFC6455 = True
+    NotifyEvents = neAsynchronous
+    LogFile.Enabled = False
+    WatchDog.Attempts = 0
+    WatchDog.Enabled = False
+    WatchDog.Interval = 10
+    Throttle.BitsPerSec = 0
+    Throttle.Enabled = False
+    Left = 312
+    Top = 368
+  end
+end
