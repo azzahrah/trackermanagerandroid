@@ -2,17 +2,23 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2017/03/25 04:05:01.000.080,=C:\Users\Joko Pitoyo\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
-    <Transaction>2017/03/25 04:05:55.000.977,C:\Users\Joko Pitoyo\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\Projects\Delphi\TrackerManagerAndroid\UMain.pas</Transaction>
     <Transaction>2017/03/25 04:05:55.000.977,C:\Users\Joko Pitoyo\Documents\Embarcadero\Studio\Projects\Unit3.fmx=D:\Projects\Delphi\TrackerManagerAndroid\UMain.fmx</Transaction>
+    <Transaction>2017/03/25 04:05:55.000.977,C:\Users\Joko Pitoyo\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\Projects\Delphi\TrackerManagerAndroid\UMain.pas</Transaction>
     <Transaction>2017/03/25 04:06:03.000.395,C:\Users\Joko Pitoyo\Documents\Embarcadero\Studio\Projects\Project3.dproj=D:\Projects\Delphi\TrackerManagerAndroid\TrackerManagerAndroid.dproj</Transaction>
     <Transaction>2017/03/25 04:29:10.629,=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
     <Transaction>2017/03/25 04:29:20.461,D:\Projects\Delphi\TrackerManagerAndroid\UMyClass.pas=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
     <Transaction>2017/03/25 07:05:05.372,=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
-    <Transaction>2017/03/25 07:05:11.907,D:\Projects\Delphi\TrackerManagerAndroid\UDM.pas=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
     <Transaction>2017/03/25 07:05:11.907,D:\Projects\Delphi\TrackerManagerAndroid\UDM.dfm=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.dfm</Transaction>
+    <Transaction>2017/03/25 07:05:11.907,D:\Projects\Delphi\TrackerManagerAndroid\UDM.pas=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
     <Transaction>2017/03/25 07:07:58.915,=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
-    <Transaction>2017/03/25 07:08:17.107,D:\Projects\Delphi\TrackerManagerAndroid\UFrameMonitorVehicle.fmx=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.fmx</Transaction>
     <Transaction>2017/03/25 07:08:17.107,D:\Projects\Delphi\TrackerManagerAndroid\UFrameMonitorVehicle.pas=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
+    <Transaction>2017/03/25 07:08:17.107,D:\Projects\Delphi\TrackerManagerAndroid\UFrameMonitorVehicle.fmx=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.fmx</Transaction>
+    <Transaction>2017/03/25 07:23:50.673,=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
+    <Transaction>2017/03/25 07:24:11.394,D:\Projects\Delphi\TrackerManagerAndroid\UFrameManageVehicle.fmx=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.fmx</Transaction>
+    <Transaction>2017/03/25 07:24:11.394,D:\Projects\Delphi\TrackerManagerAndroid\UFrameManageVehicle.pas=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
+    <Transaction>2017/03/25 07:29:44.768,=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
+    <Transaction>2017/03/25 07:30:02.948,D:\Projects\Delphi\TrackerManagerAndroid\UManageVehicle.fmx=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.fmx</Transaction>
+    <Transaction>2017/03/25 07:30:02.948,D:\Projects\Delphi\TrackerManagerAndroid\UManageVehicle.pas=D:\Projects\Delphi\TrackerManagerAndroid\Unit1.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile Android="26d4c43d"/>

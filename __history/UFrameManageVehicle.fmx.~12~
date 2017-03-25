@@ -1,0 +1,263 @@
+object FrameManageVehicle: TFrameManageVehicle
+  Size.Width = 363.000000000000000000
+  Size.Height = 479.000000000000000000
+  Size.PlatformDefault = False
+  object ToolBar1: TToolBar
+    Size.Width = 363.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object ToolBar2: TToolBar
+    Align = Bottom
+    Position.Y = 439.000000000000000000
+    Size.Width = 363.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 363.000000000000000000
+    Size.Height = 399.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 1
+    TabOrder = 2
+    TabPosition = PlatformDefault
+    Sizes = (
+      363s
+      373s
+      363s
+      373s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 79.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'List Vehicle'
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Size.Width = 363.000000000000000000
+        Size.Height = 373.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 71.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Edit Form'
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Client
+        Size.Width = 363.000000000000000000
+        Size.Height = 373.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 50.000000000000000000
+          end
+          item
+            Value = 50.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Label1
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Edit1
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Label2
+            Row = 1
+          end
+          item
+            Column = 1
+            Control = Edit2
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = Label3
+            Row = 2
+          end
+          item
+            Column = 1
+            Control = Edit3
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = Label4
+            Row = 3
+          end
+          item
+            Column = 1
+            Control = ComboBox1
+            Row = 3
+          end>
+        RowCollection = <
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 40.000000000000000000
+          end>
+        object Label1: TLabel
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 171.500000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nopol'
+        end
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 3
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 171.500000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label2: TLabel
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 171.500000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Imei'
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 2
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 171.500000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label3: TLabel
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 171.500000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Phone'
+        end
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 1
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 171.500000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label4: TLabel
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 171.500000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Group User'
+        end
+        object ComboBox1: TComboBox
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 171.500000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+        end
+      end
+    end
+  end
+end

@@ -6,9 +6,7 @@ uses
   UMain in 'UMain.pas' {FormMain},
   UMyClass in 'UMyClass.pas',
   UDM in 'UDM.pas' {DM: TDataModule},
-  UFrameMonitorVehicle in 'UFrameMonitorVehicle.pas' {FrameMonitorVehicle: TFrame},
-  UFrameManageVehicle in 'UFrameManageVehicle.pas' {FrameManageVehicle: TFrame},
-  UManageVehicle in 'UManageVehicle.pas' {FormManageVehicle};
+  UFrameMonitorVehicle in 'UFrameMonitorVehicle.pas' {FrameMonitorVehicle: TFrame};
 
 {$R *.res}
 
@@ -16,6 +14,5 @@ begin
   Application.Initialize;
   Application.CreateForm(TDM, DM);
   Application.CreateForm(TFormMain, FormMain);
-  Application.CreateForm(TFormManageVehicle, FormManageVehicle);
   Application.Run;
 end.

@@ -1,0 +1,24 @@
+unit UManageVehicle;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs;
+
+type
+  TFormManageVehicle = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormManageVehicle: TFormManageVehicle;
+
+implementation
+
+{$R *.fmx}
+
+end.

@@ -1,0 +1,19 @@
+object FrameManageVehicle: TFrameManageVehicle
+  Size.Width = 363.000000000000000000
+  Size.Height = 479.000000000000000000
+  Size.PlatformDefault = False
+  object ToolBar1: TToolBar
+    Size.Width = 363.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object ToolBar2: TToolBar
+    Align = Bottom
+    Position.Y = 439.000000000000000000
+    Size.Width = 363.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+end
